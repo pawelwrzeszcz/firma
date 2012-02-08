@@ -1,0 +1,11 @@
+# składki ZUS
+storedVars["zus_fgsp"] = ;
+storedVars["zus_zdrowotne"] = ;
+storedVars["zus_spoleczne"] = ;
+
+# wysokość podatku
+storedVars["us_dochodowy"] = ;
+storedVars["us_vat"] = ;
+
+# miesiąć w formacie dwucyfrowym, 01=styczeń
+storedVars["miesiac"] = ;
