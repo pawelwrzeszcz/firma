@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.centrum24.pl/" />
+<title>us_w_wbk</title>
+</head>
+
+<!-- Autor: Pawel Wrzeszcz, https://github.com/pawelwrzeszcz -->
+<!-- Licencja: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/ -->
+
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">us_w_wbk</td></tr>
+</thead><tbody>
+
+<!--Podatek dochodowy-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Przelewy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Podatki</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[1]</td>
+	<td>label=regexp:Konto&lt;30</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[2]</td>
+	<td>label=regexp:III\sUS\sWarszawa</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[5]</td>
+	<td>label=PIT-5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[9]</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[6]</td>
+	<td>label=regexp:mies</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[7]</td>
+	<td>label=${miesiac}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[10]</td>
+	<td>PIT-5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[11]</td>
+	<td>${us_dochodowy}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dalej']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td></td>
+</tr>
+<!--Podatek VAT-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Podatki</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[1]</td>
+	<td>label=regexp:Konto&lt;30</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[2]</td>
+	<td>label=regexp:III\sUS\sWa-wa\sVAT</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[5]</td>
+	<td>label=VAT-7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[9]</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[6]</td>
+	<td>label=regexp:mies</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[7]</td>
+	<td>label=${miesiac}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[10]</td>
+	<td>VAT-7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[11]</td>
+	<td>${us_vat}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dalej']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

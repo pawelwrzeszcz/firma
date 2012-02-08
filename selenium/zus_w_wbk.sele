@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.centrum24.pl/" />
+<title>zus_w_wbk</title>
+</head>
+
+<!-- Autor: Pawel Wrzeszcz, https://github.com/pawelwrzeszcz -->
+<!-- Licencja: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/ -->
+
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">zus_w_wbk</td></tr>
+</thead><tbody>
+
+<!-- ZUS FGSP -->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Przelewy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=ZUS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[1]</td>
+	<td>label=regexp:Konto&lt;30</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[2]</td>
+	<td>label=regexp:ZUS\s-\sSKŁADKA\sFP</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[5]</td>
+	<td>label=S - Składka za 1 m-c</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>${zus_fgsp}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dalej']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td></td>
+</tr>
+<!-- ZUS Zdrowotne -->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=ZUS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[1]</td>
+	<td>label=regexp:Konto&lt;30</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[2]</td>
+	<td>label=regexp:ZUS\s-\sUBEZPIECZENIE\sZDROWOTNE</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[5]</td>
+	<td>label=S - Składka za 1 m-c</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>${zus_zdrowotne}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dalej']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td></td>
+</tr>
+<!-- ZUS Spoleczne -->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=ZUS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[1]</td>
+	<td>label=regexp:Konto&lt;30</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[2]</td>
+	<td>label=regexp:ZUS\s-\sUBEZPIECZENIE\sSPO</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select)[5]</td>
+	<td>label=S - Składka za 1 m-c</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>01</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>${zus_spoleczne}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dalej']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
