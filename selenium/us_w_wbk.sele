@@ -34,37 +34,37 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[2]</td>
+	<td>xpath=(//select)[5]</td>
 	<td>label=regexp:III\sUS\sWarszawa</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[5]</td>
+	<td>xpath=(//select)[8]</td>
 	<td>label=PIT-5L</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[9]</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
 	<td>13</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[6]</td>
+	<td>xpath=(//select)[9]</td>
 	<td>label=regexp:mies</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[7]</td>
+	<td>xpath=(//select)[10]</td>
 	<td>label=${miesiac}</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[10]</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
 	<td>PIT-5L</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[11]</td>
+	<td>xpath=(//input[@type='text'])[7]</td>
 	<td>${us_dochodowy}</td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td>xpath=//input[@value='Wstaw do koszyka']</td>
 	<td></td>
 </tr>
 <!--Podatek VAT-->
@@ -90,37 +90,37 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[2]</td>
+	<td>xpath=(//select)[5]</td>
 	<td>label=regexp:III\sUS\sWa-wa\sVAT</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[5]</td>
+	<td>xpath=(//select)[8]</td>
 	<td>label=VAT-7</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[9]</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
 	<td>13</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[6]</td>
+	<td>xpath=(//select)[9]</td>
 	<td>label=regexp:mies</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[7]</td>
+	<td>xpath=(//select)[10]</td>
 	<td>label=${miesiac}</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[10]</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
 	<td>VAT-7</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[11]</td>
+	<td>xpath=(//input[@type='text'])[7]</td>
 	<td>${us_vat}</td>
 </tr>
 <tr>
@@ -130,7 +130,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td>xpath=//input[@value='Wstaw do koszyka']</td>
 	<td></td>
 </tr>
 </tbody></table>
