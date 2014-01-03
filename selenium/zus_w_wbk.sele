@@ -34,22 +34,22 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[2]</td>
-	<td>label=regexp:ZUS\s-\sSKŁADKA\sFP</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[5]</td>
+	<td>xpath=(//select)[4]</td>
 	<td>label=S - Składka za 1 m-c</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[5]</td>
-	<td>01</td>
+	<td>xpath=(//input[@type='text'])[1]</td>
+	<td>${zus_spoleczne}</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>${zus_zdrowotne}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[3]</td>
 	<td>${zus_fgsp}</td>
 </tr>
 <tr>
@@ -59,89 +59,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dodaj do koszyka']</td>
-	<td></td>
-</tr>
-<!-- ZUS Zdrowotne -->
-<tr>
-	<td>clickAndWait</td>
-	<td>link=ZUS</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[1]</td>
-	<td>label=regexp:Konto&lt;30</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[2]</td>
-	<td>label=regexp:ZUS\s-\sUBEZPIECZENIE\sZDROWOTNE</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[5]</td>
-	<td>label=S - Składka za 1 m-c</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>xpath=(//input[@type='text'])[5]</td>
-	<td>01</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>xpath=(//input[@type='text'])[6]</td>
-	<td>${zus_zdrowotne}</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dalej']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dodaj do koszyka']</td>
-	<td></td>
-</tr>
-<!-- ZUS Spoleczne -->
-<tr>
-	<td>clickAndWait</td>
-	<td>link=ZUS</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[1]</td>
-	<td>label=regexp:Konto&lt;30</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[2]</td>
-	<td>label=regexp:ZUS\s-\sUBEZPIECZENIE\sSPO</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[5]</td>
-	<td>label=S - Składka za 1 m-c</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>xpath=(//input[@type='text'])[5]</td>
-	<td>01</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>xpath=(//input[@type='text'])[6]</td>
-	<td>${zus_spoleczne}</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dalej']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>xpath=//input[@value='Dodaj do koszyka']</td>
+	<td>xpath=//input[@value='Wstaw do koszyka']</td>
 	<td></td>
 </tr>
 </tbody></table>
