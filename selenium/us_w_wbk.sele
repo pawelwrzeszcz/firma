@@ -29,11 +29,6 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[1]</td>
-	<td>label=regexp:Konto&lt;30</td>
-</tr>
-<tr>
-	<td>select</td>
 	<td>xpath=(//select)[5]</td>
 	<td>label=regexp:III\sUS\sWarszawa</td>
 </tr>
@@ -82,11 +77,6 @@
 	<td>clickAndWait</td>
 	<td>link=Podatki</td>
 	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[1]</td>
-	<td>label=regexp:Konto&lt;30</td>
 </tr>
 <tr>
 	<td>select</td>

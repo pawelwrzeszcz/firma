@@ -16,7 +16,6 @@
 <tr><td rowspan="1" colspan="3">zus_w_wbk</td></tr>
 </thead><tbody>
 
-<!-- ZUS FGSP -->
 <tr>
 	<td>clickAndWait</td>
 	<td>link=Przelewy</td>
@@ -26,11 +25,6 @@
 	<td>clickAndWait</td>
 	<td>link=ZUS</td>
 	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>xpath=(//select)[1]</td>
-	<td>label=regexp:Konto&lt;30</td>
 </tr>
 <tr>
 	<td>select</td>
