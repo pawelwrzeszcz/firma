@@ -18,7 +18,7 @@
 
 <tr>
 	<td>clickAndWait</td>
-	<td>link=Przelewy</td>
+	<td>link=Przelewy*</td>
 	<td></td>
 </tr>
 <tr>

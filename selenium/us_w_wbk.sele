@@ -19,7 +19,7 @@
 <!--Podatek dochodowy-->
 <tr>
 	<td>clickAndWait</td>
-	<td>link=Przelewy</td>
+	<td>link=Przelewy*</td>
 	<td></td>
 </tr>
 <tr>
@@ -28,13 +28,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>select</td>
-	<td>xpath=(//select)[5]</td>
-	<td>label=regexp:III\sUS\sWarszawa</td>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[1]</td>
+	<td>III Urząd Skarbowy Warszawa-Śród</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>06 1010 1010 0166 2322 2300 0000</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[8]</td>
+	<td>xpath=(//select)[7]</td>
 	<td>label=PIT-5L</td>
 </tr>
 <tr>
@@ -44,12 +49,12 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[9]</td>
+	<td>xpath=(//select)[8]</td>
 	<td>label=regexp:mies</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[10]</td>
+	<td>xpath=(//select)[9]</td>
 	<td>label=${miesiac}</td>
 </tr>
 <tr>
@@ -79,13 +84,18 @@
 	<td></td>
 </tr>
 <tr>
-	<td>select</td>
-	<td>xpath=(//select)[5]</td>
-	<td>label=regexp:III\sUS\sWa-wa\sVAT</td>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[1]</td>
+	<td>III Urząd Skarbowy Warszawa-Śród</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[2]</td>
+	<td>56 1010 1010 0166 2322 2200 0000</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[8]</td>
+	<td>xpath=(//select)[7]</td>
 	<td>label=VAT-7</td>
 </tr>
 <tr>
@@ -95,12 +105,12 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[9]</td>
+	<td>xpath=(//select)[8]</td>
 	<td>label=regexp:mies</td>
 </tr>
 <tr>
 	<td>select</td>
-	<td>xpath=(//select)[10]</td>
+	<td>xpath=(//select)[9]</td>
 	<td>label=${miesiac}</td>
 </tr>
 <tr>
