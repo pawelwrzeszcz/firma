@@ -45,7 +45,7 @@
 <tr>
 	<td>type</td>
 	<td>xpath=(//input[@type='text'])[5]</td>
-	<td>14</td>
+	<td>15</td>
 </tr>
 <tr>
 	<td>select</td>
@@ -101,7 +101,7 @@
 <tr>
 	<td>type</td>
 	<td>xpath=(//input[@type='text'])[5]</td>
-	<td>14</td>
+	<td>15</td>
 </tr>
 <tr>
 	<td>select</td>
