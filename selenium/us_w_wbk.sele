@@ -40,7 +40,7 @@
 <tr>
 	<td>select</td>
 	<td>xpath=(//select)[7]</td>
-	<td>label=PIT-5L</td>
+	<td>label=PIT-5</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -60,7 +60,7 @@
 <tr>
 	<td>type</td>
 	<td>xpath=(//input[@type='text'])[6]</td>
-	<td>PIT-5L</td>
+	<td>PIT-5</td>
 </tr>
 <tr>
 	<td>type</td>
